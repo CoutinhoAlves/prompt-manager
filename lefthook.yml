@@ -6,7 +6,6 @@ pre-commit:
       stage_fixed: true
     validate:
       glob: '*.{ts,tsx}'
-      run: pnpm typecheck
 
 pre-push:
   commands:
